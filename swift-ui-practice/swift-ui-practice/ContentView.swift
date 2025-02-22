@@ -17,8 +17,10 @@ struct ContentView: View {
             Button("Press me") {
                 print("Button pressed!")
             }
-            .foregroundColor(Color.teal)
-            .padding()
+            .padding(10)
+            .foregroundColor(.white)
+            .background(.black)
+            .cornerRadius(8)
         }
         .padding()
     }
